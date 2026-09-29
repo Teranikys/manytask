@@ -1,0 +1,869 @@
+[
+  {
+    "id": "01-courses",
+    "title": "Каталог курсов",
+    "description": "Карточки доступных курсов и управляемые пространства имён. Для администратора доступны создание курса и переходы к настройкам.",
+    "pageName": "courses",
+    "url": "/",
+    "role": "instance_admin",
+    "filename": "01-courses.png",
+    "actualPath": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:27.912Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "02-assignments",
+    "title": "Задания курса",
+    "description": "Компактные группы заданий: баллы, отдельные полосы выполнения и времени до дедлайна, кнопки порядка групп и показа прошедших сроков.",
+    "pageName": "assignments",
+    "url": "/sandbox/",
+    "role": "course_admin",
+    "filename": "02-assignments.png",
+    "actualPath": "/sandbox/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:28.359Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1462
+    }
+  },
+  {
+    "id": "03-grades",
+    "title": "Ведомость оценок",
+    "description": "Таблица всех 230 участников: поиск, закреплённые колонки, пагинация, экспорт и действия преподавателя для изменения баллов, оценок и комментариев.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "fullPage": false,
+    "filename": "03-grades.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:28.829Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "04-signup",
+    "title": "Регистрация через GitLab",
+    "description": "Форма регистрации: логин, имя, фамилия, почта и подтверждение пароля. Существующий пользователь может перейти ко входу.",
+    "pageName": "signup",
+    "url": "/signup",
+    "role": "anonymous",
+    "filename": "04-signup.png",
+    "actualPath": "/signup",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:29.181Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "05-yandex-id",
+    "title": "Вход через Yandex ID",
+    "description": "Вариант страницы входа для установки Manytask с SourceCraft. Кнопка направляет пользователя к внешнему провайдеру авторизации.",
+    "pageName": "signup-yandex-id",
+    "url": "/__preview__/sourcecraft",
+    "role": "anonymous",
+    "filename": "05-yandex-id.png",
+    "actualPath": "/signup",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:29.518Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "06-signup-finish",
+    "title": "Завершение регистрации",
+    "description": "После внешней авторизации пользователь заполняет имя и фамилию для профиля Manytask.",
+    "pageName": "signup-finish",
+    "url": "/__preview__/signup-finish/browsergallery",
+    "role": "anonymous",
+    "filename": "06-signup-finish.png",
+    "actualPath": "/signup_finish",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:29.869Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "07-join-course",
+    "title": "Подключение к курсу",
+    "description": "Ввод секретного кода для регистрации на курс и создания учебного репозитория.",
+    "pageName": "create-project",
+    "url": "/empty/create_project",
+    "role": "student",
+    "filename": "07-join-course.png",
+    "actualPath": "/empty/create_project",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:30.235Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "08-not-ready",
+    "title": "Курс ещё не готов",
+    "description": "Страница созданного, но ещё не настроенного курса. Администратору доступны настройки, пользователю — обновление страницы и возврат к курсам.",
+    "pageName": "not-ready",
+    "url": "/pending/not_ready",
+    "role": "instance_admin",
+    "filename": "08-not-ready.png",
+    "actualPath": "/pending/not_ready",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:30.638Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1120
+    }
+  },
+  {
+    "id": "09-create-course",
+    "title": "Создание курса",
+    "description": "Выбор пространства имён, название курса, секрет регистрации, токен и пути репозиториев GitLab. Форма открыта от имени администратора пространства имён.",
+    "pageName": "create-course",
+    "url": "/instance_admin/courses/new",
+    "role": "namespace_admin",
+    "filename": "09-create-course.png",
+    "actualPath": "/instance_admin/courses/new",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:31.013Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "10-edit-course",
+    "title": "Настройки курса",
+    "description": "Редактирование параметров существующего курса, его статуса и списка администраторов.",
+    "pageName": "edit-course",
+    "url": "/instance_admin/courses/sandbox/edit",
+    "role": "course_admin",
+    "filename": "10-edit-course.png",
+    "actualPath": "/instance_admin/courses/sandbox/edit",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:31.390Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1010
+    }
+  },
+  {
+    "id": "11-instance-admin",
+    "title": "Панель администратора инстанса",
+    "description": "Управление курсами, пространствами имён и пользователями. Для компактного снимка список пользователей отфильтрован по student00.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "filename": "11-instance-admin.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:31.815Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1410
+    }
+  },
+  {
+    "id": "12-namespaces",
+    "title": "Пространства имён",
+    "description": "Список доступных пространств имён с описаниями, количеством участников и переходом к управлению.",
+    "pageName": "namespaces",
+    "url": "/instance_admin/namespaces",
+    "role": "namespace_admin",
+    "filename": "12-namespaces.png",
+    "actualPath": "/instance_admin/namespaces",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:32.197Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "13-namespace",
+    "title": "Управление пространством имён",
+    "description": "Информация о Gravity Sandbox, участники с их ролями и связанные курсы. Доступны добавление участника и изменение его прав.",
+    "pageName": "namespace",
+    "url": "/instance_admin/namespaces/1",
+    "role": "namespace_admin",
+    "filename": "13-namespace.png",
+    "actualPath": "/instance_admin/namespaces/1",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:32.623Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "14-courses-table",
+    "title": "Каталог: табличный режим",
+    "description": "Альтернативное представление курсов с поиском, фильтром статуса и сортировкой по столбцам.",
+    "pageName": "courses",
+    "url": "/",
+    "role": "instance_admin",
+    "filename": "14-courses-table.png",
+    "actualPath": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:33.024Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "15-assignments-dark",
+    "title": "Задания: тёмная тема",
+    "description": "Те же группы заданий в тёмной теме с палитрой Manytask.",
+    "pageName": "assignments",
+    "url": "/sandbox/",
+    "role": "course_admin",
+    "theme": "dark",
+    "filename": "15-assignments-dark.png",
+    "actualPath": "/sandbox/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:33.476Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1462
+    }
+  },
+  {
+    "id": "16-grades-student",
+    "title": "Ведомость глазами студента",
+    "description": "Доступные студенту результаты 227 участников: служебные персональные поля и действия редактирования отсутствуют.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "student",
+    "fullPage": false,
+    "filename": "16-grades-student.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:34.002Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "17-grades-dark",
+    "title": "Ведомость: тёмная тема",
+    "description": "Ведомость преподавателя в тёмной теме; доступны закреплённые поля и горизонтальная прокрутка задач.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "theme": "dark",
+    "fullPage": false,
+    "filename": "17-grades-dark.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:34.464Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "18-profile",
+    "title": "Редактирование своего профиля",
+    "description": "Диалог изменения имени и фамилии текущего пользователя; контекст каталога остаётся видимым.",
+    "pageName": "courses",
+    "url": "/",
+    "role": "student",
+    "fullPage": false,
+    "filename": "18-profile.png",
+    "actualPath": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:34.893Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "19-edit-score",
+    "title": "Изменение балла за задачу",
+    "description": "Диалог ручной корректировки балла за отдельную задачу выбранного студента.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "fullPage": false,
+    "filename": "19-edit-score.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:35.439Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "20-edit-grade",
+    "title": "Изменение итоговой оценки",
+    "description": "Диалог ручного назначения итоговой оценки студенту.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "fullPage": false,
+    "filename": "20-edit-grade.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:36.025Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "21-edit-comment",
+    "title": "Комментарий преподавателя",
+    "description": "Редактирование комментария к результатам выбранного студента.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "fullPage": false,
+    "filename": "21-edit-comment.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:36.580Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "22-create-namespace",
+    "title": "Создание пространства имён",
+    "description": "Диалог создания namespace: название, slug и описание.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "fullPage": false,
+    "filename": "22-create-namespace.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:37.040Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "23-grant-instance-admin",
+    "title": "Назначение администратора инстанса",
+    "description": "Выбор пользователя для выдачи прав администратора всего инстанса. Права на снимке не изменяются.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "fullPage": false,
+    "filename": "23-grant-instance-admin.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:37.523Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "24-revoke-instance-admin",
+    "title": "Снятие прав администратора инстанса",
+    "description": "Отдельное действие для выбора администратора и отзыва его прав. Показан диалог до подтверждения.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "fullPage": false,
+    "filename": "24-revoke-instance-admin.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:37.959Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "25-choose-namespace",
+    "title": "Выбор пространства для назначения роли",
+    "description": "Первый шаг назначения роли из общей панели: выбор пространства имён.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "fullPage": false,
+    "filename": "25-choose-namespace.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:38.395Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "26-assign-namespace-role",
+    "title": "Назначение роли в пространстве имён",
+    "description": "Второй шаг: выбор пользователя и административной роли в выбранном пространстве.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "fullPage": false,
+    "filename": "26-assign-namespace-role.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:38.907Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "27-namespace-add-user",
+    "title": "Добавление участника пространства",
+    "description": "Выбор пользователя и его роли из страницы конкретного пространства имён.",
+    "pageName": "namespace",
+    "url": "/instance_admin/namespaces/1",
+    "role": "namespace_admin",
+    "fullPage": false,
+    "filename": "27-namespace-add-user.png",
+    "actualPath": "/instance_admin/namespaces/1",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:39.367Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "28-namespace-change-role",
+    "title": "Изменение роли участника",
+    "description": "Диалог изменения прав существующего участника пространства имён.",
+    "pageName": "namespace",
+    "url": "/instance_admin/namespaces/1",
+    "role": "namespace_admin",
+    "fullPage": false,
+    "filename": "28-namespace-change-role.png",
+    "actualPath": "/instance_admin/namespaces/1",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:39.788Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "29-namespace-remove-user",
+    "title": "Подтверждение удаления участника",
+    "description": "Подтверждение удаления участника из пространства имён. Удаление на стенде не выполняется.",
+    "pageName": "namespace",
+    "url": "/instance_admin/namespaces/1",
+    "role": "namespace_admin",
+    "fullPage": false,
+    "filename": "29-namespace-remove-user.png",
+    "actualPath": "/instance_admin/namespaces/1",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:40.222Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "30-grant-course-admin",
+    "title": "Назначение администратора курса",
+    "description": "Развёрнутый блок выдачи прав на конкретный курс внутри его настроек.",
+    "pageName": "edit-course",
+    "url": "/instance_admin/courses/sandbox/edit",
+    "role": "course_admin",
+    "filename": "30-grant-course-admin.png",
+    "actualPath": "/instance_admin/courses/sandbox/edit",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:40.625Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1054
+    }
+  },
+  {
+    "id": "31-create-course-sourcecraft",
+    "title": "Создание курса для SourceCraft",
+    "description": "Альтернативная форма настройки репозиториев для инстанса, использующего SourceCraft.",
+    "pageName": "create-course",
+    "url": "/instance_admin/courses/new",
+    "role": "instance_admin",
+    "sourcecraft": true,
+    "filename": "31-create-course-sourcecraft.png",
+    "actualPath": "/instance_admin/courses/new",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:41.052Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "32-edit-course-sourcecraft",
+    "title": "Настройки курса для SourceCraft",
+    "description": "Параметры существующего курса в варианте интеграции с SourceCraft.",
+    "pageName": "edit-course",
+    "url": "/instance_admin/courses/sandbox/edit",
+    "role": "instance_admin",
+    "sourcecraft": true,
+    "filename": "32-edit-course-sourcecraft.png",
+    "actualPath": "/instance_admin/courses/sandbox/edit",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:41.513Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1010
+    }
+  },
+  {
+    "id": "33-mobile-assignments",
+    "title": "Задания на телефоне",
+    "description": "Адаптивные карточки групп и задач при ширине экрана 390 px.",
+    "pageName": "assignments",
+    "url": "/sandbox/",
+    "role": "student",
+    "mobile": true,
+    "filename": "33-mobile-assignments.png",
+    "actualPath": "/sandbox/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:41.953Z",
+    "imageSize": {
+      "width": 390,
+      "height": 1794
+    }
+  },
+  {
+    "id": "34-mobile-grades",
+    "title": "Ведомость на телефоне",
+    "description": "Мобильный вид ведомости: таблица прокручивается внутри своего контейнера, элементы управления остаются доступны.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "mobile": true,
+    "fullPage": false,
+    "filename": "34-mobile-grades.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:42.395Z",
+    "imageSize": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "id": "35-mobile-navigation",
+    "title": "Мобильное меню",
+    "description": "Выдвижная навигация: переходы внутри курса, профиль и выбор оформления.",
+    "pageName": "assignments",
+    "url": "/sandbox/",
+    "role": "instance_admin",
+    "mobile": true,
+    "fullPage": false,
+    "filename": "35-mobile-navigation.png",
+    "actualPath": "/sandbox/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:42.808Z",
+    "imageSize": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "id": "36-collapsed-navigation",
+    "title": "Свёрнутая боковая навигация",
+    "description": "Компактная боковая панель освобождает место для таблицы оценок.",
+    "pageName": "grades",
+    "url": "/sandbox/database",
+    "role": "course_admin",
+    "fullPage": false,
+    "filename": "36-collapsed-navigation.png",
+    "actualPath": "/sandbox/database",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:43.362Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "37-deadline-stages",
+    "title": "Несколько ступеней дедлайна",
+    "description": "Демонстрационный сценарий: 100% → 70% → 50% доступных баллов, прошедшая ступень открыта. Выполнение задач и время текущего этапа показаны разными полосами. Данные подставлены только в HTML ответа браузеру; база и код приложения не менялись.",
+    "pageName": "assignments",
+    "url": "/sandbox/",
+    "role": "course_admin",
+    "fixture": true,
+    "filename": "37-deadline-stages.png",
+    "actualPath": "/sandbox/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:43.871Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "38-deadline-graph",
+    "title": "График изменения доступных баллов",
+    "description": "Демонстрационный сценарий интерполированного дедлайна: раскрытый график множителя доступных баллов. Данные подставлены только в HTML ответа браузеру; стандартный шаблон использует жёсткие дедлайны.",
+    "pageName": "assignments",
+    "url": "/sandbox/",
+    "role": "course_admin",
+    "fixture": true,
+    "filename": "38-deadline-graph.png",
+    "actualPath": "/sandbox/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:44.308Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "39-edit-user-profile",
+    "title": "Профиль пользователя в панели администратора",
+    "description": "Администратор инстанса открывает профиль выбранного студента и может исправить имя и фамилию.",
+    "pageName": "instance-admin",
+    "url": "/instance_admin/panel",
+    "role": "instance_admin",
+    "fullPage": false,
+    "filename": "39-edit-user-profile.png",
+    "actualPath": "/instance_admin/panel",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:44.779Z",
+    "imageSize": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  {
+    "id": "40-mobile-courses",
+    "title": "Каталог курсов на телефоне",
+    "description": "Карточки курсов, регистрация на курс и доступные административные разделы при ширине 390 px.",
+    "pageName": "courses",
+    "url": "/",
+    "role": "instance_admin",
+    "mobile": true,
+    "filename": "40-mobile-courses.png",
+    "actualPath": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "theme": "light",
+    "sourceCommit": "5ac13a94d392fffcbf082095ae6e1c271ec67e76",
+    "capturedAt": "2026-09-29T20:06:45.190Z",
+    "imageSize": {
+      "width": 390,
+      "height": 1016
+    }
+  }
+]
